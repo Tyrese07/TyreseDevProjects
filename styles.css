@@ -1,0 +1,32 @@
+body{
+    background-color:#3DA5D9
+}
+/* Navigation Bar - Horizontal Layout */
+#navbar ul {
+    display: flex;           /* Turns the list into a flex container */
+    justify-content: center; /* Centers items horizontally (optional) */
+    gap: 2rem;              /* Adds space between items */
+    list-style: none;       /* Removes bullet points */
+    padding: 0;             /* Removes default padding */
+    margin: 0;              /* Removes default margin */
+    background: #EA7317
+  }
+  
+  #navbar li {
+    display: inline-block;  /* Ensures list items stay in line */
+  }
+  
+  #navbar a {
+    text-decoration: none;  /* Removes underline from links */
+    color: #333;           /* Default link color */
+    font-weight: 600;      /* Makes text slightly bold */
+    padding: 0.5rem 1rem;  /* Adds clickable area padding */
+    transition: color 0.3s; /* Smooth hover effect */
+  }
+  
+  #navbar a:hover {
+    color: #2ec4b6;        /* Changes color on hover (use your accent color) */
+  }
+  H1{
+    color:#FEC601
+  }
