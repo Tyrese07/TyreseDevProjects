@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio of [Your Name], [Your Role]">
+    <title>Tyrese Palmer | Software Engineer</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Tyrese</span></h1>
+            <h2>Programmer</h2>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <div class="about-grid">
+            <div class="about-text">
+                <p>I have a passion for Embedded Software engineering, Full Stack Web development, and Cyber Security</p>
+                <h3>Skills</h3>
+                <ul class="skills-list">
+                    <li>HTML/CSS</li>
+                    <li>Python</li>
+                    <!-- Add more skills -->
+                </ul>
+            </div>
+            <div class="about-image">
+                <img src="assets/profile.jpg" alt="[Your Name] profile photo">
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <img src="assets/project1.jpg" alt="Project 1 screenshot">
+                <h3>Project Title</h3>
+                <p>Brief description of the project and technologies used.</p>
+                <a href="#" class="project-link">View Project</a>
+            </div>
+            <!-- Repeat for other projects -->
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="section">
+        <h2>Resume</h2>
+        <div class="resume-timeline">
+            <!-- Education -->
+            <div class="timeline-item">
+                <h3>B.S. Computer Engineering</h3>
+                <p>University of North Texas</p>
+            </div>
+            <!-- Work Experience -->
+            <div class="timeline-item">
+                <h3>Amazon</h3>
+                <p class="timeline-date">August 2020 - Present</p>
+                <p>Fulfillment Associate</p>
+                <ul>
+                    <li>Collaborated in a high-paced, data-driven environment, utilizing data analysis tools to optimize inventory
+                        management and improve workflow efficiency.</li>
+                    <li>Demonstrated strong attention to detail and process adherence, ensuring compliance with company standards in
+                        a large-scale, distributed system.</li>
+                    <li>Gained hands-on experience with Amazon’s internal tools and technologies, developing a deep understanding of
+                        the company’s operational workflows and customer-centric approach.</li>
+                </ul>
+                <h3>Texas Department of Transportation</h3>
+                <p class="timeline-date">May 2018 - August 2018</p>
+                <p>Summer Engineering Intern II</p>
+                <ul>
+                    <li>Assisted with reviewing technical plans, performing engineering calculations, and contributing to project analysis.</li>
+                    <li>Conducted computer modeling and data analysis, demonstrating precision and attention to detail.</li>
+                    <li>Collaborated with cross-functional teams to analyze project components and improve outcomes.</li>
+            </div>
+        </div>
+        <a href="assets/resume.pdf" class="cta-button" download>Download Resume</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="https://github.com/Tyrese07"GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/yourprofile" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <!-- Add more social links -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span id="year"></span> Tyrese Palmer. All rights reserved.</p>
+    </footer>
+
+    <!-- Copyright year script (CSS-only alternative available) -->
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
